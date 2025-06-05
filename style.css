@@ -1,0 +1,75 @@
+.header_basket{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: green;
+    height: 50px;
+}
+.header_basket_text{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 40px;
+    font-size: 30px;
+}
+.header_basket_holder{
+    display: flex;
+    align-items: center;
+}
+.header_basket_holder_btn{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.header_basket_holder_btn_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+.main_shop{
+   width: 56%;
+}
+.main_shop_title{
+    padding-top: 5%;
+
+}
+.main_shop_list_item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    border: black solid 1px;
+    border-radius: 6px;
+    background: rgb(234, 250, 232);
+    width: 135px;
+}
+.main_shop_list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 10px;
+    background: rgb(121, 170, 71);
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+.main_create{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+    
+}

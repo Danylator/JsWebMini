@@ -1,0 +1,14 @@
+.main{
+    margin: 50px 0 0 6%;
+}
+.main_bill{
+    width: 20%;
+    background: rgb(223, 223, 223);
+}
+.main_return{
+    display: flex;
+    margin-bottom: 15px;
+}
+.basketPrice{
+    padding-top: 3px;
+}
